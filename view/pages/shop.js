@@ -14,8 +14,8 @@ const shop = `
     ${head('Это магазин')}
     <body>
         ${header}
-        <div class='container'>
-        ${products.map((el)=> card(el.photoSrc, el.title, el.desc, el.price)).join}
+        <div class='products'>
+        ${productsHTML}
         </div>
         ${footer}
     </body>

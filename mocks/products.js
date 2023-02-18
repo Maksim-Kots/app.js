@@ -1,10 +1,39 @@
+const products = [
+    {
+        photoSrc: './public/img/sony-1.jpg',
+        title: 'наушники сони ',
+        desc: 'прям очень крутые наушники купите их.',
+        price: '500000'
+    },
 
-{
-    photoSrc: '/img/'
-    title: 'Клавиатура '
-    desc: 'миханическая'
-    price: '500'
-}
+    {
+        photoSrc: './public/img/sony-1.jpg',
+        title: 'наушники сони ',
+        desc: 'прям очень крутые наушники купите их.',
+        price: '500000'
+    },
 
+    {
+        photoSrc: './public/img/sony-1.jpg',
+        title: 'наушники сони ',
+        desc: 'прям очень крутые наушники купите их.',
+        price: '500000'
+    },
+
+    {
+        photoSrc: './public/img/sony-1.jpg',
+        title: 'наушники сони ',
+        desc: 'прям очень крутые наушники купите их.',
+        price: '500000'
+    },
+
+    {
+        photoSrc: './public/img/sony-1.jpg',
+        title: 'наушники сони ',
+        desc: 'прям очень крутые наушники купите их.',
+        price: '500000'
+    }
+
+]
 
 module.exports = products;
