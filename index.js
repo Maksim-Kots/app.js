@@ -1,13 +1,12 @@
 const express = require("express")
 const bodyParser = require("body-parser")
 const app = express();
-const contacts = require('./view/pages/aboutMe')
 const contacts = require('./view/pages/contacts')
-const contacts = require('./view/pages/mainPage')
-const contacts = require('./view/pages/shop');
-const { response } = require("express");
+const shop = require('./view/pages/shop');
 const mainPage = require("./view/pages/mainPage");
 const aboutMe = require("./view/pages/aboutMe");
+const { response } = require("express");
+
 
 
 app.use(bodyParser.urlencoded({ extended: false }))
