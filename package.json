@@ -4,15 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vercel": "vercel"
   },
   "author": "",
-  "license" : "ISC",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.1",
     "express": "^4.18.2",
-    "sqlite3": "^5.1.4"
+    "sqlite3": "^5.1.4",
+    "vercel": "^28.16.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

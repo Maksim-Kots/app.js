@@ -1,2 +1,0 @@
-${productsHTML}
-${card(el[i].photoSrc, el[i].title, el[i].desc, el[i].price)}
