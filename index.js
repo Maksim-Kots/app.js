@@ -5,7 +5,6 @@ const contacts = require('./view/pages/contacts');
 const shop = require('./view/pages/shop');
 const mainPage = require("./view/pages/mainPage");
 const aboutMe = require("./view/pages/aboutMe");
-const { response } = require("express");
 
 const app = express();
 const bodyParser = require("body-parser");

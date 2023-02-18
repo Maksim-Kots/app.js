@@ -2,15 +2,13 @@ const card = require('../components/card')
 const products = require ('../../mocks/products')
 
 
-let productsHTML;
+let productsHTML = "";
 
-for( let i=0; i<product.lenght; i++) {
-    productsHTML = productsHTML + card(products[0].photoSrc,  products[0].title, products[0].desc, products[0].price)
+for( let i=0; i < product.lenght; i++) {
+    productsHTML = productsHTML + card(products[i].photoSrc,  products[i].title, products[i].desc, products[i].price)
 }
 
 const shop = `
-<!DOCTYPE html>
-<html lang="en">
     ${head('Это магазин')}
     <body>
         ${header}
@@ -22,4 +20,3 @@ const shop = `
 </html>
 `
 module.exports = shop;
-
