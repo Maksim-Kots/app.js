@@ -4,7 +4,7 @@ const products = require ('../../mocks/products')
 
 let productsHTML = "";
 
-for( let i=0; i < product.lenght; i++) {
+for( let i=0; i < products.lenght; i++) {
     productsHTML = productsHTML + card(products[i].photoSrc,  products[i].title, products[i].desc, products[i].price)
 }
 
@@ -20,3 +20,5 @@ const shop = `
 </html>
 `
 module.exports = shop;
+
+ПЕРЕДЕЛАТЬ КОД

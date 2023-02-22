@@ -19,3 +19,5 @@ const mainPage = `
 </html>
 `
 module.exports = mainPage;
+
+ПЕРЕДЕЛАТЬ КОД

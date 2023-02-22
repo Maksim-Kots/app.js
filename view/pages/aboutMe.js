@@ -21,3 +21,6 @@ const aboutMe = `
 </html>
 `
 module.exports = aboutMe;
+
+
+ПЕРЕДЕЛАТЬ КОД

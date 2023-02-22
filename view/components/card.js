@@ -1,4 +1,4 @@
-export default (photo, title, desc, price) => {
+module.exports = (photo, title, desc, price) => {
     
     return `
     <div class = "card">
