@@ -1,38 +1,27 @@
 const products = [
     {
+        id: 1,
         photoSrc: './public/img/sony-1.jpg',
         title: 'наушники сони ',
         desc: 'прям очень крутые наушники купите их.',
-        price: '500000'
+        price: '500'
     },
 
     {
+        id: 2,
         photoSrc: './public/img/sony-1.jpg',
-        title: 'наушники сони ',
+        title: 'наушники сони V2 ',
         desc: 'прям очень крутые наушники купите их.',
-        price: '500000'
+        price: '5000'
     },
 
     {
+        id: 3,
         photoSrc: './public/img/sony-1.jpg',
-        title: 'наушники сони ',
+        title: 'наушники сони V3 ',
         desc: 'прям очень крутые наушники купите их.',
-        price: '500000'
+        price: '50000'
     },
-
-    {
-        photoSrc: './public/img/sony-1.jpg',
-        title: 'наушники сони ',
-        desc: 'прям очень крутые наушники купите их.',
-        price: '500000'
-    },
-
-    {
-        photoSrc: './public/img/sony-1.jpg',
-        title: 'наушники сони ',
-        desc: 'прям очень крутые наушники купите их.',
-        price: '500000'
-    }
 
 ]
 

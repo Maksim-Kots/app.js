@@ -10,7 +10,10 @@ const app = express();
 const bodyParser = require("body-parser");
 
 app.use(bodyParser.urlencoded({ extended: false }))
-app.use(express.static('./public'))
+app.use(express.static(__dirname + './public'));
+
+const db = require('./mocks/products');
+const products = require ('./mocks/products')
 
 app.get('/', (request, pesponse)=> {
     response.send(mainPage)
@@ -18,6 +21,26 @@ app.get('/', (request, pesponse)=> {
 
 app.get('/shop', (request, pesponse)=> {
     response.send(shop)
+})
+
+app.get('/shop/:id', (request, response) => {
+    const id = request.params.id
+    let finded = false
+    let index = 0
+    let product
+    while(db.length > index) {
+        console.log(db[index].id, id)
+        if(db[index].id === id) {
+            finded = true;
+
+            product = db[index]
+        }
+        index+1
+
+    }
+    
+    response.send(`<h1> $ {request.params.id}</h1>`)
+    response.json(product)
 })
 
 app.get('/aboutMe', (request, pesponse)=> {
