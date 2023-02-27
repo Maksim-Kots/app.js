@@ -1,5 +1,6 @@
 const footer = require('../components/footer')
 const head = require ('../components/head')
+const header = require('../components/header');
 
 const contacts =`
 ${head('Контакты')}

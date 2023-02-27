@@ -2,6 +2,7 @@ const footer = require('../components/footer')
 const head = require ('../components/head')
 const card = require ('../components/card')
 const products = require ('../mocks/products')
+const header = require('../components/header');
 
 let productsHTML = '';
 
