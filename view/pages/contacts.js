@@ -1,23 +1,18 @@
-const pageContacts = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
-</head>
+const footer = require('../components/footer')
+const head = require ('../components/head')
+
+const contacts =`
+${head('Контакты')}
 <body>
+    ${header}
     <h1>Контакты</h1>
     <ul>
         <li> 1 </li>
         <li> 2 </li>
         <li> 3 </li>
     </ul>
+    ${footer}
 </body>
 </html>
 `
 module.exports = pageContacts;
-
-ПЕРЕДЕЛАТЬ КОД
