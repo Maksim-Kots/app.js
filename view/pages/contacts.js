@@ -16,4 +16,4 @@ ${head('Контакты')}
 </body>
 </html>
 `
-module.exports = pageContacts;
+module.exports = contacts;
